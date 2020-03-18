@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_padding">10dp</dimen>
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="top_bar">25dp</dimen>
+    <dimen name="ic_standard">56dp</dimen>
+    <dimen name="search_size">208dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="ic_small">40dp</dimen>
+    <dimen name="title_width">150dp</dimen>
+    <dimen name="line_size">2dp</dimen>
+    <dimen name="number_size">16sp</dimen>
+</resources>

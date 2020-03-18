@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:padding="@dimen/bar_padding"
+          android:gravity="center_vertical"
+          android:layout_height="wrap_content">
+    <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+
+            >
+        <ImageView
+                android:layout_gravity="center"
+                android:layout_width="@dimen/ic_standard"
+                android:layout_height="@dimen/ic_standard"
+                android:src="@drawable/ic_user"
+                android:background="@drawable/ic_bg"
+                android:padding="@dimen/small_padding"
+                />
+    </FrameLayout>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            >
+        <TextView
+                android:id="@+id/txt_name"
+                android:textColor="@color/red"
+                android:text="Dad number 2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/txt_number"
+                android:textColor="@color/grey"
+                android:text="09832989528"
+                android:textSize="@dimen/number_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <Switch
+            android:id="@+id/swt_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/small_padding"
+            android:thumb="@drawable/switch_bg"
+            android:track="@drawable/track_bg"
+            android:layout_height="@dimen/bar_padding"
+            android:textOff="HỦY"
+            android:textOn="CHẶN"
+            />
+</TableRow>

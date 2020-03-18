@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+            parent="android:Theme.Holo.Light.NoActionBar"
+            name="style_bar_transper">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
